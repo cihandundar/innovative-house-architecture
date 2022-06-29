@@ -810,6 +810,7 @@ li {
   }
   .info-2-image img {
     width: 100%;
+    height: auto;
   }
   .text-list {
     display: flex;
