@@ -626,12 +626,31 @@ li {
     text-align: center;
     align-items: center;
   }
+
   .info-2-text {
     margin: 0;
     padding: 30px;
   }
   .info-2-text p {
     margin-bottom: 30px;
+  }
+  .planing-container {
+    top: 0;
+    padding: 2rem 2rem;
+  }
+  .planing-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .planing-small-box {
+    margin: 15px;
+    box-shadow: none;
+    border: 1px solid #000;
+  }
+  .planing-small-box:not(:last-child) {
+    margin-right: 0;
   }
   .footer-contact {
     display: flex;
@@ -794,6 +813,9 @@ li {
     height: 50px;
     margin: 0;
     margin-top: 10px;
+  }
+  .services-image .grid-img {
+    width: 100%;
   }
   .services-text .link {
     margin-top: 30px;
