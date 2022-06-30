@@ -665,6 +665,12 @@ li {
   }
 }
 
+@media (max-width: 772px) {
+  .info-text p {
+    width: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-menu {
     width: 30%;
